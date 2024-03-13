@@ -1,0 +1,18 @@
+service: my-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  hello:
+    handler: src/functions/hello.handler
+    events:
+      - httpApi:
+          method: GET
+          path: /hello
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline

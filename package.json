@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "esbuild": "0.20.1",
+    "serverless-esbuild": "1.51.0",
+    "serverless-offline": "13.3.3"
+  },
+  "name": "my-api"
+}
