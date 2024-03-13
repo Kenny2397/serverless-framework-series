@@ -15,3 +15,17 @@ A step-by-step, hands-on guide to implementing the serverless framework from zer
 
 
 
+
+
+
+    
+## Usage
+
+Navigate into a branch to specific implementation.
+
+
+## Blogs list
+
+- Construyendo una API REST utilizando TypeScript con Serverless Framework y AWS
+    https://medium.com/@kenny.luque.t/71d5c1810db6
+
