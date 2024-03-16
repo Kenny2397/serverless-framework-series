@@ -4,6 +4,9 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
+  stage: ${opt:stage}
+  region: ${opt:region}
+  architecture: arm64
 
 functions:
   hello:
