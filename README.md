@@ -26,7 +26,7 @@ Navigate into a branch to specific implementation.
 
 ## Blogs list
 
-- Implemenatando una API REST utilizando TypeScript con Serverless Framework y AWS - branch blog-01
+- Implementando una API REST utilizando TypeScript con Serverless Framework y AWS - branch blog-01
     https://medium.com/@kenny.luque.t/71d5c1810db6
 
 - Construyendo un template para tus proyectos de serverless framework y TypeScript - branch blog-02
