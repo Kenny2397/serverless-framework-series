@@ -15,6 +15,14 @@ functions:
       - httpApi:
           method: GET
           path: /hello
+  getSurvey:
+    handler: src/functions/getSurvey.handler
+    description: Get a survey by id
+    events:
+      - httpApi:
+          method: GET
+          path: /survey/{id}
+    
 
 plugins:
   - serverless-esbuild

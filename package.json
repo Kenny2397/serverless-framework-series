@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Serverless framework ts skeleton",
   "scripts": {
+    "dev": "serverless offline start --stage dev --region us-east-1",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest --ci --detectOpenHandles --config=jest.config.json",

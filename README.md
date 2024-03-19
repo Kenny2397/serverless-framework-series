@@ -30,3 +30,31 @@ Navigate into a branch to specific implementation.
 
 https://medium.com/p/f5d962c41d9c
 
+## Estrctura del proyecto
+
+```bash
+
+├── src
+│   ├── functions
+│   │   └── getSurvey
+│   └── core
+│       ├── app
+│       │   ├── schemas
+│       │   └── usecases
+│       ├── domain
+│       │   ├── models
+│       │   └── services
+│       │       ├── repositories
+│       └── infrastructure
+│           ├── adapters
+│           ├── ports
+│           ├── repositories
+│           └── utils
+├── test
+│   ├── functions
+│   │   └── getSurvey.test.ts
+│   └── core
+├── serverless.yml
+└── package.json
+
+```
