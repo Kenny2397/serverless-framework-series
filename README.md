@@ -31,3 +31,6 @@ Navigate into a branch to specific implementation.
 
 - Construyendo un template para tus proyectos de serverless framework y TypeScript - branch blog-02
     https://medium.com/@kenny.luque.t/f5d962c41d9c
+
+- Desarrollando Aplicaciones Escalables con Arquitectura Hexagonal, Serverless Framework TypeScript y AWS
+    https://medium.com/@kenny.luque.t/c31c8e3cbac6
