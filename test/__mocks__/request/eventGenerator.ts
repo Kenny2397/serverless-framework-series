@@ -6,7 +6,7 @@ export const eventGenerator = ({
   authorization,
   path = '',
   queryStringObject,
-  pathParametersObject,
+  pathParameters,
   stageVariables = null,
 }: any) : APIGatewayProxyEventV2 => {
   const request = {
@@ -57,7 +57,7 @@ export const eventGenerator = ({
     multiValueHeaders: {},
     multiValueQueryStringParameters: {},
     path,
-    pathParameters: pathParametersObject,
+    pathParameters: pathParameters ?? {},
     httpMethod: method,
     queryStringParameters: queryStringObject,
     stageVariables: stageVariables,

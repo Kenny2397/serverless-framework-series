@@ -10,17 +10,13 @@ export class SurveyController implements Handler<APIGatewayProxyEventV2, Partial
 
   async exec (event: APIGatewayProxyEventV2) {
     try {
-      const { id } = event.pathParameters ?? { }
+      const { id } = event.pathParameters!
+      console.log(id)
+
+      const survey = await this.surveyUsecase.getSurvey(id ?? '')
       
-      if (!id) {
-        return {
-          statusCode: 400,
-          body: JSON.stringify({ message: 'Missing id' }),
-        }
-      }
-      
-      const survey = await this.surveyUsecase.getSurvey(id)
       return survey
+
     } catch (error) {
       console.log(error)
       return {

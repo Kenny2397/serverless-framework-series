@@ -4,6 +4,7 @@ import { SurveyRepository } from 'src/core/domain/services/repositories/SurveyRe
 export class DynamoDBSurveyRepository implements SurveyRepository {
 
   async getSurvey (id: string): Promise<Survey | void> {
+    console.log('persistence', id)
     const surveys: Survey[] = [
       {
         id: '1',
@@ -24,6 +25,7 @@ export class DynamoDBSurveyRepository implements SurveyRepository {
     ]
 
     const survey = surveys.find(survey => survey.id === id)
+    console.log('resp', survey)
     if (!survey) {
       throw new Error('Survey not found')
     }
