@@ -26,9 +26,9 @@ Navigate into a branch to specific implementation.
 
 ## Blogs list
 
-- Construyendo un template para tus proyectos de serverless framework y TypeScript
+- Desarrollando Aplicaciones Escalables con Arquitectura Hexagonal, Serverless Framework, TypeScript y AWS
 
-https://medium.com/p/f5d962c41d9c
+https://medium.com/@kenny.luque.t/c31c8e3cbac6
 
 ## Estrctura del proyecto
 
