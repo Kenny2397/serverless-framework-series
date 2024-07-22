@@ -40,20 +40,21 @@ https://medium.com/@kenny.luque.t/c31c8e3cbac6
 │   └── core
 │       ├── app
 │       │   ├── schemas
-│       │   └── usecases
+│       │   ├── usecases
+│       │   └──ports
 │       ├── domain
 │       │   ├── models
 │       │   └── services
 │       │       ├── repositories
 │       └── infrastructure
 │           ├── adapters
-│           ├── ports
 │           ├── repositories
 │           └── utils
 ├── test
 │   ├── functions
 │   │   └── getSurvey.test.ts
 │   └── core
+|        └── ...
 ├── serverless.yml
 └── package.json
 

@@ -1,6 +1,6 @@
 import { APIGatewayProxyEventV2, Context } from 'aws-lambda'
+import { Handler } from 'src/core/app/ports/in/http/handler'
 import { SurveyUsecase } from 'src/core/app/usecases/surveyUsecase'
-import { Handler } from 'src/core/infrastructure/ports/in/http/handler'
 
 export class SurveyController implements Handler<APIGatewayProxyEventV2, Partial<Context>> {
 
